@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="0" time="1.953">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-06T23:06:52" time="1.097" tests="9">
+<testsuites name="jest tests" tests="9" failures="0" time="1.784">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-09T19:23:31" time="0.978" tests="9">
     <testcase classname=" Test if the number is even" name=" Test if the number is even" time="0.002">
     </testcase>
-    <testcase classname=" Test if the number is odd" name=" Test if the number is odd" time="0.001">
+    <testcase classname=" Test if the number is odd" name=" Test if the number is odd" time="0">
     </testcase>
     <testcase classname=" Testing to see if Jest works" name=" Testing to see if Jest works" time="0">
     </testcase>
-    <testcase classname=" test if the contacts endpoint returns data" name=" test if the contacts endpoint returns data" time="0.03">
+    <testcase classname=" test if the contacts endpoint returns data" name=" test if the contacts endpoint returns data" time="0.035">
     </testcase>
-    <testcase classname=" test get contact by id" name=" test get contact by id" time="0.006">
+    <testcase classname=" test get contact by id" name=" test get contact by id" time="0.004">
     </testcase>
-    <testcase classname=" test contact not found" name=" test contact not found" time="0.004">
+    <testcase classname=" test contact not found" name=" test contact not found" time="0.003">
     </testcase>
-    <testcase classname=" test contact addition" name=" test contact addition" time="0.022">
+    <testcase classname=" test contact addition" name=" test contact addition" time="0.017">
     </testcase>
     <testcase classname=" test contact delete" name=" test contact delete" time="0.003">
     </testcase>
