@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  pre_build:
+    commands:
+      - echo install application dependencies...
+      - npm install
+  build:
+    commands:
+      - echo testing the application...
+      - npm run test
+  post_build:
+    commands:
+      - echo preparing production package
+      - rm -rf node-modules
+      - npm install --only=prod
+artifacts:
+  files:
+    - '**/*'
+  name: Devopsapp-$CODEBUILD_BUILD_NUMBER
